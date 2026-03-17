@@ -13,7 +13,6 @@ namespace api.models
         public string ProjectName { get; set; } = string.Empty;
         public string ProjectDescription { get; set; } = string.Empty;
         public string ProjectPlace { get; set; } = string.Empty;
-        //public string ProjectYear { get; set; } = string.Empty;
         public DateTime ProjectYear { get; set; } = new DateTime();
         public string ProjectParentFilter { get; set; } = string.Empty;
         public string ProjectChildFilter { get; set; } = string.Empty;
