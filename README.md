@@ -44,18 +44,18 @@ mpiuassociati-backend/
 │
 └── api/
     ├── api.csproj
-    ├── Program.cs                     ← App bootstrap & DI config
-    ├── appsettings.json               ← Connection strings & config
+    ├── Program.cs
+    ├── appsettings.json
     ├── appsettings.Development.json
     │
     ├── controller/
-    │   └── ProjectController.cs       ← REST endpoints
+    │   └── ProjectController.cs
     │
     ├── data/
-    │   └── ApplicationDBContext.cs    ← EF Core DbContext
+    │   └── ApplicationDBContext.cs
     │
     ├── models/
-    │   └── Project.cs                 ← Domain entity
+    │   └── Project.cs
     │
     ├── dtos/
     │   └── Project/
